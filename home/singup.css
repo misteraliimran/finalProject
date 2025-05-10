@@ -1,0 +1,27 @@
+.logo {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.van {
+    display: flex;
+    height: 100vh;
+}
+
+.ban {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
