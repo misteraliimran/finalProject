@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="exit.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./vizer.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/60542639e2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../header.css">
@@ -29,36 +29,47 @@
             </ul>
             <div class="nav-icons">
                 <input type="text" placeholder="Search...">
-               <a href="./about.html"><button><i class="fa-solid fa-user"></i></button></a>
+                <a href="./about.html"><button><i class="fa-solid fa-user"></i></button></a>
                 <button><i class="fa-solid fa-basket-shopping"></i></button>
                 <button>Username</button>
             </div>
             <a href="./login.html" class="login btn btn-danger">Log in</a>
             <button class="logout btn btn-danger">Log Out</button>
+
         </nav>
     </header>
-    <div class="container">
-        <h1>Create an account</h1>
-        <form id="crateAccountForm">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" placeholder="Choose a username" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Create a password" required>
-
-            <button type="submit">Create account</button>
-        </form>
-        <p class="login-link">Already have account? <a href="#">Log in</a></p>
+    <div class="myProductTable">
+  <table style="width: 100%;">
+        <tr>
+            <th style="padding-right: 35px;">Id</th>
+            <th style="padding-right: 60px;">Brend</th>
+            <th style="padding-right: 63px;">Model</th>
+            <th style="padding-right: 45px;">Categoriya</th>
+            <th style="padding-right: 250px;">Izobrajanie</th>
+            <th style="padding-right: 60px;">Tsena</th>
+            <th style="padding-right: 35px;">Reytinq</th>
+            <th>Operatsi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dell 2222</td>
+            <td>Dell XPS 13</td>
+            <td>Laptops</td>
+            <td><img src="https://pctech.co.in/image/cache/catalog/Laptops/DELL/dell-xps-9520-core-i7-01-800x800.jpg"
+                    alt="" style="width: 250px;"></td>
+            <td>119656565656 $</td>
+            <td>5/5</td>
+            <td><button
+                    style="border: none; padding: 5px 10px; border-radius: 5px; background-color: rgb(0, 102, 255); color: white;">Redaktorsjhb</button>
+            </td>
+            <td><button
+                    style="border: none; padding: 5px 10px; border-radius: 5px; background-color: #DB4444; color: white; margin-left: 20px;">Udalit</button>
+            </td>
+        </tr>
+                
+    </table>
     </div>
+  
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
@@ -115,7 +126,6 @@
             <p>© Copyright Rimel 2022. All rights reserved</p>
         </div>
     </footer>
-    <script src="./exit.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

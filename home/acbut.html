@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="exit.css">
+    <link rel="stylesheet" href="acbut.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/60542639e2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../header.css">
@@ -33,32 +33,65 @@
                 <button><i class="fa-solid fa-basket-shopping"></i></button>
                 <button>Username</button>
             </div>
-            <a href="./login.html" class="login btn btn-danger">Log in</a>
+             <a href="./login.html" class="login btn btn-danger">Log in</a>
             <button class="logout btn btn-danger">Log Out</button>
+
         </nav>
     </header>
-    <div class="container">
-        <h1>Create an account</h1>
-        <form id="crateAccountForm">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>
+                    Launched in 2015, Exclusive is South Asia’s premier online shopping marketplace with an active
+                    presence
+                    in Bangladesh.
+                    Supported by a wide range of tailored marketing, data and service solutions, Exclusive has 10,500
+                    sellers and 300 brands
+                    and serves 3 million customers across the region.
+                    <br><br>
+                    Exclusive has more than 1 million products to offer, growing at a very fast rate. Exclusive offers a
+                    diverse assortment
+                    in categories ranging from consumer...
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-aJfSUY9aL82j21P7NOX9tx-WHetQasdmPg&s"
+                    alt="Shopping Online">
+            </div>
+        </div>
 
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
+    </section>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" placeholder="Choose a username" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Create a password" required>
-
-            <button type="submit">Create account</button>
-        </form>
-        <p class="login-link">Already have account? <a href="#">Log in</a></p>
-    </div>
+    <section class="team-section">
+        <div class="team-member">
+            <img src="data:image/jpeg;base64,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"
+                alt="Emin Sadiqli">
+            <h3>Emin Sadiqli</h3>
+            <p>Founder & Chairman</p>
+            <div class="socials">
+                <i>📷</i> <i>🐦</i> <i>in</i>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBfbLzBm3s-2lPTwu1wFlNO2xrmURjh1B6Fg&s"
+                alt="Iman Imanov">
+            <h3>Iman Imanov</h3>
+            <p>Managing Director</p>
+            <div class="socials">
+                <i>📷</i> <i>🐦</i> <i>in</i>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI7aQuZclv-7hO1B6w0PO96EeY27eym1nWjg&s"
+                alt="Nicat Piriyev">
+            <h3>Nicat Piriyev</h3>
+            <p>Product Designer</p>
+            <div class="socials">
+                <i>📷</i> <i>🐦</i> <i>in</i>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
@@ -115,7 +148,6 @@
             <p>© Copyright Rimel 2022. All rights reserved</p>
         </div>
     </footer>
-    <script src="./exit.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

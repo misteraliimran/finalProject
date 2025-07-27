@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+}
+
 .top-bar {
     background-color: #ff4d4d;
     color: white;
     text-align: center;
     padding: 8px;
     font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+    font-weight: bold;
 }
 
 .navbar {
@@ -26,66 +36,50 @@
     font-size: 20px;
 }
 
-.nav-icons {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
 .nav-links {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-.login-container {
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    width: 400px;
+.nav-links a {
+    text-decoration: none;
+    color: #333;
 }
-.login-section{
+
+.shop-btn {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-icons {
     display: flex;
+    gap: 10px;
     align-items: center;
-    justify-content: center;
-    margin: 50px 0px;
-}
-h1 {
-    text-align: center;
-    margin-bottom: 30px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input {
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 16px;
+.nav-icons input {
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-button {
-    padding: 12px;
-    font-size: 16px;
-    background-color: #dc3545;
-    color: white;
+.nav-icons button {
+    padding: 5px 10px;
     border: none;
+    background-color: #eee;
     border-radius: 5px;
-    cursor: pointer;
+}
+.myProductTable{
+    width: 100%;
+    padding: 20px;
 }
 
-button:hover {
-    background-color: #c82333;
+.logout {
+    background-color: #ff4d4d;
+    color: white;
 }
 
 .footer {

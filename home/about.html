@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="exit.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/60542639e2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../header.css">
@@ -33,33 +33,26 @@
                 <button><i class="fa-solid fa-basket-shopping"></i></button>
                 <button>Username</button>
             </div>
-            <a href="./login.html" class="login btn btn-danger">Log in</a>
+             <a href="./login.html" class="login btn btn-danger">Log in</a>
             <button class="logout btn btn-danger">Log Out</button>
+
         </nav>
     </header>
-    <div class="container">
-        <h1>Create an account</h1>
-        <form id="crateAccountForm">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" placeholder="Choose a username" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Create a password" required>
-
-            <button type="submit">Create account</button>
-        </form>
-        <p class="login-link">Already have account? <a href="#">Log in</a></p>
+    <div class="account-section">
+        <a href="./vizer.html"><button class="my-products">My products for sale</button></a>
+        <div class="user-details">
+            <h2>User Details</h2>
+            <p><strong>Name:</strong> Iman</p>
+            <p><strong>Surname:</strong> Iman</p>
+            <p><strong>Email:</strong> Iman@gmail.com</p>
+            <p><strong>Username:</strong> Iman</p>
+        </div>
+        <div class="user-avatar">M</div>
     </div>
-    <footer class="footer">
+
+    <footer>
+
         <div class="footer-container">
             <div class="footer-column">
                 <h3>Exclusive</h3>
@@ -115,7 +108,6 @@
             <p>© Copyright Rimel 2022. All rights reserved</p>
         </div>
     </footer>
-    <script src="./exit.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

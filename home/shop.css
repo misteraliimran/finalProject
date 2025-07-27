@@ -85,12 +85,6 @@ body {
     flex: 1;
 }
 
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
 .filter-btn {
     background-color: #dc3545;
     color: white;
