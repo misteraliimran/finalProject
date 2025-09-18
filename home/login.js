@@ -17,8 +17,12 @@ form.addEventListener("submit", (e) => {
           "Content-Type": "application/json"
         },
         body: JSON.stringify(obj)
-    }).then(res=>res.json())
-    .then(data=>localStorage.setItem(activeUser,JSON.stringify(data.body)))
+    })
+    .then(res=>res.json())
+    .then(data=>{
+        localStorage.setItem("activeUser",JSON.stringify(data.body))
+        window.location = "./home.html"
+    })
 })
 
 

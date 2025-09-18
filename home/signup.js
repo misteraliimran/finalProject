@@ -18,6 +18,10 @@ form.addEventListener("submit", (e) => {
         },
         body: JSON.stringify(obj)
     })
+    .then(res=>res.json())
+    .then((data)=>{
+        window.location = "./login.html"
+    })
     
 })
 
