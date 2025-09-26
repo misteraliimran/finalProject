@@ -1,6 +1,4 @@
 
-
-
 let logout = document.querySelector(".logout")
 function refresh() {
     let icons = document.querySelector(".nav-icons")
